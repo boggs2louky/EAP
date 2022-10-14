@@ -18,19 +18,27 @@ Suggested Citation: U.S. Bureau of Economic Analysis, Population [POPTHM], retri
 
 
 Project Components used:
+
 1.)	Read in data from a local csv.
 
+
 2.)	Manipulate and clean data
-a.)	Use built-in pandas or numpy functions to do things like remove 0’s and null values where they don’t belong in your dataset.
-b.)	Use custom functions or lambdas to perform specific operations to clean or manipulate your data, return those values, then use them in other parts of your project.
+
+a.)	Used built-in pandas or numpy functions to remove 0’s and null values where they don’t belong in your dataset.
+b.)	Use specific operations to clean or manipulate your data, return those values, then use them in other parts of your project.
+
 
 3.)	Analyze data
-a.)	Do 5 basic calculations with Pandas, like finding the sum(), median(), mean(), or mode() of a column. You could divide two columns by each other. You could multiple a column by a random integer. You could use string operations and find the most common letter in a given entry. 
-b.)	Write custom functions to operate on your data. You may discover that you want to find out something particular about data that just doesn’t have a built-in Pandas function that accomplishes your goal. Maybe you want your function to read in a DataFrame, search the columns for any mention of “Cars”, then return the lowest-priced car in the column along with the mileage. This category is very open to interpretation, so any function operating on your data will work. 
+
+a.)	Do 5 basic calculations with Pandas, finding the mean() of a columns.  
+b.)	Write custom functions to operate on your data. 
+
 
 4.)	Visualize data
 Make 2 basic plots with matplotlib, seaborn, or any other kind of visualization library that you think looks interesting. 
 
+
 5.)	Interpret your data and graphical output
+
 a.)	Write markdown cells in Jupyter explaining your thought process and code. If you make a few plots with matplotlib, explain what the reader is seeing and why you chose to plot things that way.
 b.)	If using some format other than a notebook, make sure your README explains your project.				
