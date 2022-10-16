@@ -1,6 +1,7 @@
-# EAP- National (USA) Unemployment Rate and Labor Force Participation
-Data Analysis Project – Calculating the National Unemployment Rate and Labor Force Participation Rate for the years 1976-2022.
-Project-Perform basic calculations using the employment level (in thousands of persons/monthly), unemployment level (in thousands of persons/monthly), and not in labor force (in thousands of persons/monthly) to determine the Unemployment Rate and Labor Force Participation at a national scale (USA) from the years of 1976-2022.
+# EAP- National (USA) Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 01-01-1976 - 08-01-2022.
+Data Analysis Project – Calculating the National Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 1976-2022.
+Project-Perform basic calculations using the employment level (in thousands of persons/monthly), unemployment level (in thousands of persons/monthly), and not in labor force (in thousands of persons/monthly) to determine the Unemployment Rate, Labor Force Participation, and the Not In Labor Force Rate at a national scale (USA) from the years of 1976-2022.
+
 
 The following Data Sources were downloaded from FRED (https://fred.stlouisfed.org/) and combined into a single CSV file:
 1.)	Employment Level (CE16V) - https://fred.stlouisfed.org/series/CE16OV
