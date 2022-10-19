@@ -74,9 +74,13 @@ b.)	If using some format other than a notebook, make sure your README explains y
 
 The Calculation for GDP (Based on Spending) is as follows (https://www.investopedia.com/articles/investing/051415/how-calculate-gdp-country.asp):  
 
-GDP = private consumption + gross private investment + (government investment + government spending) + (exports – imports).
+GDP = (Personal consumption Expenditures + private consumption of fixed capital) + gross private investment + (government investment + government spending) + (exports – imports).
 
 Definitions (https://www.bea.gov/help/glossary):
+
+
+Personal Consumption Expenditures (PCEC) - The goods and services purchased by persons.
+
 
 Consumption of fixed capital (CFC)- The charge for the using up of private and government fixed capital located in the United States. It is the decline in the value of the stock of fixed assets due to wear and tear, obsolescence, accidental damage, and aging. For general government and for nonprofit institutions that primarily serve individuals, CFC serves as a measure of the value of the current services of the fixed assets owned and used by these entities.
 
@@ -95,19 +99,25 @@ Imports of Goods and Services - Goods and services purchased by U.S. residents f
 
 All sources came from the Federal Reserve of St. Louis FRED website (https://fred.stlouisfed.org/). The following data sources were used (all data sources are Quarterly, in Billions of Dollars, Seasonally Adjusted Annual Rate):
 
-1.) Consumption of fixed capital: Private (A024RC1Q027SBEA) - https://fred.stlouisfed.org/series/A024RC1Q027SBEA
+
+1.) Personal Consumption Expenditures (PCEC) - https://fred.stlouisfed.org/series/PCEC
+Suggested Citation:
+U.S. Bureau of Economic Analysis, Personal Consumption Expenditures [PCEC], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/PCEC, October 18, 2022.
+
+
+2.) Consumption of fixed capital: Private (A024RC1Q027SBEA) - https://fred.stlouisfed.org/series/A024RC1Q027SBEA
 Suggested Citation:
 U.S. Bureau of Economic Analysis, Consumption of fixed capital: Private [A024RC1Q027SBEA], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/A024RC1Q027SBEA, October 18, 2022.
 
-2.) Gross Private Domestic Investment (GDPI) - https://fred.stlouisfed.org/series/GPDI
+3.) Gross Private Domestic Investment (GDPI) - https://fred.stlouisfed.org/series/GPDI
 Suggested Citation:
 U.S. Bureau of Economic Analysis, Gross Private Domestic Investment [GPDI], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/GPDI, October 17, 2022.
 
-3.) Government Consumption Expenditures and Gross Investment (GCE) - https://fred.stlouisfed.org/series/GCE#
+4.) Government Consumption Expenditures and Gross Investment (GCE) - https://fred.stlouisfed.org/series/GCE#
 Suggested Citation:
 U.S. Bureau of Economic Analysis, Government Consumption Expenditures and Gross Investment [GCE], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/GCE, October 18, 2022.
 
-4.) Exports of Goods and Services (EXPGS) - https://fred.stlouisfed.org/series/EXPGS#0
+5.) Exports of Goods and Services (EXPGS) - https://fred.stlouisfed.org/series/EXPGS#0
 Suggested Citation:
 U.S. Bureau of Economic Analysis, Exports of Goods and Services [EXPGS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/EXPGS, October 17, 2022.
 
@@ -116,3 +126,4 @@ Suggested Citation:
 U.S. Bureau of Economic Analysis, Imports of Goods and Services [IMPGS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/IMPGS, October 17, 2022.
 
 
+Please also see the following link from the Bureau of Economic Analysis:  https://www.bea.gov/resources/methodologies/nipa-handbook
