@@ -45,7 +45,7 @@ Project Components used:
 
 2.)	Manipulate and clean data
 
-a.)	Used built-in pandas or numpy functions to remove 0’s and null values where they don’t belong in your dataset.
+a.)	Used built-in pandas or numpy functions to remove 0’s and null values where they don’t belong in the dataset.
 
 b.)	Use specific operations to clean or manipulate your data, return those values, then use them in other parts of your project.
 
@@ -75,6 +75,8 @@ b.)	If using some format other than a notebook, make sure your README explains y
 The Calculation for GDP (Based on Spending) is as follows (https://www.investopedia.com/articles/investing/051415/how-calculate-gdp-country.asp):  
 
 GDP = (Personal consumption Expenditures + private consumption of fixed capital) + gross private investment + (government investment + government spending) + (exports – imports).
+
+
 
 Definitions (https://www.bea.gov/help/glossary):
 
