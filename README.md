@@ -70,11 +70,13 @@ b.)	If using some format other than a notebook, make sure your README explains y
 
 
 
-# GDP Calculation (Based on Spending-Actual GDP) per Mentor Request (Clay Morton).
+# Nominal GDP Calculation to Real GDP Calculation per Mentor Request (Clay Morton).
 
-The Calculation for GDP (Based on Spending) is as follows (https://www.investopedia.com/articles/investing/051415/how-calculate-gdp-country.asp):  
+The Calculation for Nominal GDP (Based on Spending) is as follows (https://www.investopedia.com/articles/investing/051415/how-calculate-gdp-country.asp):  
 
-GDP = (Personal consumption Expenditures + private consumption of fixed capital) + gross private investment + (government investment + government spending) + (exports – imports).
+GDP = (Personal consumption Expenditures + private consumption of fixed capital) + gross private investment + (government investment + government spending) + (exports – imports). In this instance the column header GDPSB is the nominal GDP in billions of dollars.
+
+Calculation for Real GDP = GDPSB * 100 / Index Price (GDP Implicit Price Deflator - GDPDEF)
 
 
 
@@ -127,5 +129,8 @@ U.S. Bureau of Economic Analysis, Exports of Goods and Services [EXPGS], retriev
 Suggested Citation:
 U.S. Bureau of Economic Analysis, Imports of Goods and Services [IMPGS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/IMPGS, October 17, 2022.
 
+6.) Gross Domestic Product: Implicit Price Deflator (GDPDEF) - https://fred.stlouisfed.org/series/GDPDEF/
+Suggested Citation:
+U.S. Bureau of Economic Analysis, Gross Domestic Product: Implicit Price Deflator [GDPDEF], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/GDPDEF, October 20, 2022.
 
 Please also see the following link from the Bureau of Economic Analysis:  https://www.bea.gov/resources/methodologies/nipa-handbook
