@@ -45,7 +45,7 @@ Project Components used:
 
 2.)	Manipulate and clean data
 
-a.)	Used built-in pandas or numpy functions to remove 0’s and null values where they don’t belong in the dataset.
+a.)	Used built-in pandas or numpy functions to remove 0’s and null values where they don’t belong in the dataset and removed several rows from the dataset as a result of having null values.
 
 b.)	Use specific operations to clean or manipulate your data, return those values, then use them in other parts of your project.
 
@@ -55,10 +55,14 @@ b.)	Use specific operations to clean or manipulate your data, return those value
 a.)	Do 5 basic calculations with Pandas, finding the mean() of a columns.  
 
 b.)	Write custom functions to operate on your data. 
-
+    i.) Calculate Unemployment Rate (Econdata['UNEMPLYRT'] = (Econdata['UNEMPLOY'] / Econdata['EMPLVL']) * 100)
+    ii.) Calculate Labor Force Participation Rate (Econdata['LBFRCPRT'] = (Econdata['EMPLVL'] / Econdata['POPTHM']) * 100)
+    iii.) Calculate Not in Labor Force Rate (Econdata['NILBRFRCRT'] = (Econdata['NINLAB'] / Econdata['POPTHM']) * 100)
+    iv.) Calculate the Nominal GDP (GDP['GDPSB'] = ((GDP['PCEC'] + GDP['PRVCFC']) + GDP['GPDI'] + GDP['GCE'] + (GDP['EXPGS']-GDP['IMPGS'])))
+    v.) Calculate the Real GDP (GDP['GDPR'] = GDP['GDPSB'] * 100 / GDP['GDPDEF'])
 
 4.)	Visualize data
-Make 2 basic plots with matplotlib, seaborn, or any other kind of visualization library that you think looks interesting. 
+Made several basic plots with matplotlib for (visualization) of Unemployment Rate, Labor Force Participation Rate, Not in Labor Force Rate, Nominal GDP, Calculate the Real GDP, and demographic pyramids for 1980 and 2020 for male and female populations by age cohort. 
 
 
 5.)	Interpret your data and graphical output
@@ -76,7 +80,7 @@ The Calculation for Nominal GDP (Based on Spending) is as follows (https://www.i
 
 GDP = (Personal consumption Expenditures + private consumption of fixed capital) + gross private investment + (government investment + government spending) + (exports – imports). In this instance the column header GDPSB is the nominal GDP in billions of dollars.
 
-Calculation for Real GDP = GDPSB * 100 / Index Price (GDP Implicit Price Deflator - GDPDEF)
+Calculation for Real GDP = GDPSB * 100 / Index Price (GDP Implicit Price Deflator -> GDPDEF)
 
 
 
@@ -134,3 +138,7 @@ Suggested Citation:
 U.S. Bureau of Economic Analysis, Gross Domestic Product: Implicit Price Deflator [GDPDEF], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/GDPDEF, October 20, 2022.
 
 Please also see the following link from the Bureau of Economic Analysis:  https://www.bea.gov/resources/methodologies/nipa-handbook
+
+# Okun's Law  (Unemployment and GDP Connection)
+
+
