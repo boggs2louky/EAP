@@ -141,4 +141,6 @@ Please also see the following link from the Bureau of Economic Analysis:  https:
 
 # Okun's Law  (Unemployment and GDP Connection)
 
+Okun's Law states that there is a relationship between Unemployment and GDP. The law predicts that for every 1% increase in unemployment there will "usually" be an associated drop of 2% in GDP.  This is interesting given the circumstances of supply chain issues and inflation as they are currently being witnessed in the economy due to COVID 19. We have to remember that many of these indicators have a lag of time in them and so what we see at the moment is in fact representative of (in this case explicitly) what has occurred over the previous three months (Quarter) in economic terms. Nonetheless, it still provides insight into our larger national economy as a whole and from my perspective is interesting to witness/research.  The following link:  https://www.investopedia.com/terms/o/okunslaw.asp provides a more detailed discussion of Okun's Law.  
+
 
