@@ -1,4 +1,24 @@
 # EAP- National (USA) Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 01-01-1976 - 08-01-2022.
+
+
+Instructions for loading project. Tested on Windows 10 22h2 VM with the following installed (in order installed):
+
+Anaconda Version 2.3.2 (Anaconda will install Python) in VS Code you will need to set the recommended interpreter to python 3.9 version to allow .ipynb file to work correctly in VS Code.  
+
+VS Code Version 1.72.2
+	extensions installed - 	Jupyter v2022.9.1202862440
+						Jupyter Cell Tags v0.1.6
+						Jupyter Keymap v1.0.0
+						Jupyter Notebook Renders v1.0
+						Pylance v2022.10.40
+						Python v2022.16.1
+
+Restart VS Code
+
+Download the project file as a .zip from https://github.com/boggs2louky/EAP. Extract the contents of the folder to desktop or within Downloads folder or folder location of your choice on the local machine. Open VS Code navigate to the extracted zip folder (C:\Users\<username here>\Downloads\EAP-main\EAP-main. Select the National Unemployment Rate, Labor Force Participation Rate, and Not in Labor Force Rate 1976-2022.ipynb file to open in VS Code, the file should open with cells visible showing Project Title and Intro to project. You may need to set the recommended interpreter which if associated with Anaconda 2.3.2 will be python 3.9 and also allowing the Juypter notebook kernel to be installed within VS Code.   
+
+
+
 Data Analysis Project – Calculating the National Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 1976-2022.
 Project-Perform basic calculations using the employment level (in thousands of persons/monthly), unemployment level (in thousands of persons/monthly), and not in labor force (in thousands of persons/monthly) to determine the Unemployment Rate, Labor Force Participation, and the Not In Labor Force Rate at a national scale (USA) from the years of 1976-2022.
 
