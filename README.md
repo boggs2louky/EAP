@@ -1,4 +1,9 @@
-# EAP- National (USA) Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 01-01-1976 - 08-01-2022.
+# US Macroeconomics from 01-01-1976 - 08-01-2022
+
+
+Economic Analysis Project - National (USA) Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 01-01-1976 - 08-01-2022. Additionally, both Nominal and Real GDP were calculated to show the variation between the two. Okun's law is discussed but no calculations were performed to assess the "law". 
+
+Project Intent - The project looks at national Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 01-01-1976 - 08-01-2022 on a quarterly basis. The view of these rates for the selected time period allow for insight/s into cyclical/periodic occurences where unemployment, labor force participation, and persons not in the labor force vary due to other macroeconomic variables not used in this project as well as demographic factors (population age cohorts) for the time period. Above all, it is important to remember that almost all economic data is lagging time indicator and should be viewed as a snapshot in time which is used to adjust current economic trends (regadless of scale).  Unemployment is currently at lows approximately equal to pre-covid.  Future consideration should be given to personal wages, personal credit and savings, and corporate credit and earnings providing insight into which (personal earnings vs. corporate earnings) have a greater impact upon inflation in a national economy.          
 
 
 Instructions for loading project. Tested on Windows 10 22h2 VM with the following installed (in order installed):
@@ -17,6 +22,7 @@ Restart VS Code
 
 Download the project file as a .zip from https://github.com/boggs2louky/EAP. Extract the contents of the folder to desktop or within Downloads folder or folder location of your choice on the local machine. Open VS Code navigate to the extracted zip folder (C:\Users\<username here>\Downloads\EAP-main\EAP-main. Select the National Unemployment Rate, Labor Force Participation Rate, and Not in Labor Force Rate 1976-2022.ipynb file to open in VS Code, the file should open with cells visible showing Project Title and Intro to project. You may need to set the recommended interpreter which if associated with Anaconda 2.3.2 will be python 3.9 and also allowing the Juypter notebook kernel to be installed within VS Code.   
 
+Project was also tested on another physical machine running Windows 10, with python 3.10 and VS Code installed with aformentioned dependencies installed within VSCode (same extensions as within the VM above). A restart of VS Code may be required to allow for the installation of the jupyter notebook kernel to be installed for the purpose of running the project (jupyter notebook). 
 
 
 Data Analysis Project – Calculating the National Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 1976-2022.
