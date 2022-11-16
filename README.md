@@ -8,7 +8,7 @@ Project Intent - The project looks at national Unemployment Rate, Labor Force Pa
 
 Instructions for loading project. Tested on Windows 10 22h2 VM with the following installed (in order installed):
 
-Anaconda Version 2.3.2 (Anaconda will install Python) in VS Code you will need to set the recommended interpreter to python 3.9 or 3.10.8 versions to allow .ipynb file to work correctly in VS Code.  
+Anaconda Version 2.3.2 (Anaconda will install Python) in VS Code you will need to set the recommended interpreter to (base)python 3.9.13 or 3.10.8 versions to allow .ipynb file to work correctly in VS Code. In VS Code be sure to set the defualt python base 3.9.13 interpreter, this will allow for all imported libraries to work within VS Code correctly for this project file. 
 
 VS Code Version 1.72.2
 	extensions installed - 	Jupyter v2022.9.1202862440
@@ -22,17 +22,17 @@ Restart VS Code
 
 Download the project file as a .zip from https://github.com/boggs2louky/EAP. Extract the contents of the folder to desktop or within Downloads folder or folder location of your choice on the local machine. Open VS Code navigate to the extracted zip folder ***(C:\Users\<username here>\Downloads\EAP-main\EAP-main\data***. The following are the csv files (within the data folder) used in this notebook:
     
-    Econdata =  C:/Users/<username here>/Downloads/EAP-main/EAP-main/data/ECONDATA.csv
-    GDP = C:/Users/<username here>/Downloads/EAP-main/EAP-main/data/GDP.csv
-    POP1980 = C:/Users/<username here>/Downloads/EAP-main/EAP-main/data/USA1980.csv
-    POP2020 = C:/Users/<username here>/Downloads/EAP-main/EAP-main/data/USA2020.csv
+    Econdata =  .../EAP-main/EAP-main/data/ECONDATA.csv
+    GDP = .../EAP-main/EAP-main/data/GDP.csv
+    POP1980 = .../EAP-main/EAP-main/data/USA1980.csv
+    POP2020 = .../EAP-main/EAP-main/data/USA2020.csv
       
     
-Select the US Macroeconomics from 1976-2022.ipynb file to open in VS Code, the file should open with cells visible showing Project Title and Intro to project. You may need to set the recommended interpreter which if associated with Anaconda 2.3.2 will be python 3.9/3.10 and also allowing the Juypter notebook kernel to be installed within VS Code.   
+Select the US Macroeconomics from 1976-2022.ipynb file to open in VS Code, the file should open with cells visible showing Project Title and Intro to project. You may need to set the recommended interpreter which if associated with Anaconda 2.3.2 will be base python 3.9.13 as associated with the python version installed with Anaconda and will allow the Juypter notebook kernel to be installed and to run the the ipynb project within VS Code.   
 
-***Project was also tested on another physical machine running Windows 10, with python 3.10 and VS Code installed with aformentioned dependencies installed within VSCode (same extensions as within the VM above). A restart of VS Code may be required to allow for the installation of the jupyter notebook kernel to be installed for the purpose of running the project (jupyter notebook).***
+***Project was also tested on two other physical machine running Windows 10/11, with base python 3.9.13. VS Code can be installed with aformentioned dependencies/libraries (same extensions as within the VM above). A restart of VS Code may be required to allow for the installation of the jupyter notebook kernel to be installed for the purpose of running the project (jupyter notebook).***
 
-***The instructions below are if the user computer does not have any other installation of anaconda/jupyter installed on the local machine in conjunction with VS Code. Think of it as if you have only VS Code and python installed It should be used as a last resort if the ipynb file does not load properly into VS Code by defualt.Installing a Python Library using powershell terminal. In VS Code go to Terminal -> New Terminal (Powershell) -> run the following command in powershell terminal ("pip --version" apostraphes not required). PIP version should be displayed -> run the following command "pip install pandas" (apostraphes not required). After this command is finished the respective library (pandas will be installed). You will need to do this for the following libraries:  pandas, numpy, matplotlib, plotly.express, and plotly.graph_objs should suffice.***
+***The instructions below are if the user computer does not have any other installation of anaconda/jupyter installed on the local machine in conjunction with VS Code. Think of it as if you have only VS Code and python installed It should be used as a last resort if the ipynb file does not load properly into VS Code by defualt. Installing a Python Library using powershell terminal. In VS Code go to Terminal -> New Terminal (Powershell) -> run the following command in powershell terminal ("pip --version" apostraphes not required). PIP version should be displayed -> run the following command "pip install pandas" (apostraphes not required). After this command is finished the respective library (pandas will be installed). You will need to do this for the following libraries:  pandas, numpy, matplotlib, plotly.express, and plotly.graph_objs should suffice.***
 
 
 Data Analysis Project – Calculating the National Unemployment Rate, Labor Force Participation Rate, and Not In Labor Force Rate for the years 1976-2022.
